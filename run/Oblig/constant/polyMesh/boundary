@@ -37,8 +37,8 @@ FoamFile
     }
     outlet
     {
-        type            wall;
-        physicalType    wall;
+        type            patch;
+        physicalType    patch;
         nFaces          5;
         startFace       13203;
     }
@@ -51,8 +51,8 @@ FoamFile
     }
     inlet
     {
-        type            wall;
-        physicalType    wall;
+        type            patch;
+        physicalType    patch;
         nFaces          5;
         startFace       13308;
     }
