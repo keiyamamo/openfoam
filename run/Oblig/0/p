@@ -24,7 +24,23 @@ boundaryField
         type            zeroGradient;
     }
 
-    front 
+    outlet
+    {
+        type            fixedValue;
+        value           uniform 0;
+    }
+
+    top
+    {
+        type            zeroGradient;
+    }
+
+    bottom
+    {
+        type            zeroGradient;
+    }
+
+    front
     {
         type            empty;
     }
@@ -33,23 +49,6 @@ boundaryField
     {
         type            empty;
     }
-
-    bottom
-    {
-        type            zeroGradient;
-    }
-
-    top
-    {
-        type            zeroGradient;
-    }
-
-    outlet
-    {
-        type            fixedValue;
-        value           uniform 0;
-    }
-    
 }
 
 // ************************************************************************* //
